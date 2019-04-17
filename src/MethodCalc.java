@@ -19,9 +19,10 @@ public class MethodCalc {
 
 		System.out.println("\nEnter a number: ");
 		int num3 = scnr.nextInt();
-		
+
 		System.out.println("This number squared: " + square(num3));
 		System.out.println("This number cubed: " + cube(num3));
+		System.out.println("This number's 4th root: " + fourth(num3));
 
 		scnr.close();
 	}
@@ -47,7 +48,7 @@ public class MethodCalc {
 
 	private static double div(double a, double b) {
 		double divTwoNums = a / b;
-			
+
 		return divTwoNums;
 	}
 
@@ -62,6 +63,13 @@ public class MethodCalc {
 		int cubeNum = a * a * a;
 
 		return cubeNum;
+	}
+
+	private static int fourth(int a) {
+		int rootFour = a * a * a * a;
+
+		return rootFour;
+
 	}
 
 }
