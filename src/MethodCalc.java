@@ -22,10 +22,11 @@ public class MethodCalc {
 
 		System.out.println("This number squared: " + square(num3));
 		System.out.println("This number cubed: " + cube(num3));
-		System.out.println("This number's 4th root: " + fourth(num3));
+		System.out.println("This number to the 4th: " + fourth(num3));
 
 		scnr.close();
 	}
+
 
 	private static int mult(int a, int b) {
 		int multTwoNums = a * b;
